@@ -14,7 +14,7 @@ function Skills() {
         </div>
         <div className="container skills">
           <div className="row d-flex justify-content-center">
-            <div className="col-lg-3 col-sm-6 text-center">
+            <div className="col-lg-3 col-sm-6 text-center" data-aos="zoom-in" data-aos-duration="3000">
               <div className="ui-widgets html">
                 <div className="ui-values">
                   <img src={require("../../assets/html.png")} alt="" />
@@ -22,7 +22,7 @@ function Skills() {
                 <div className="ui-labels">HTML</div>
               </div>
             </div>
-            <div className="col-lg-3 col-sm-6 text-center">
+            <div className="col-lg-3 col-sm-6 text-center" data-aos="zoom-in" data-aos-duration="3000">
               <div className="ui-widgets css">
                 <div className="ui-values">
                   <img src={require("../../assets/css.png")} alt="" />
@@ -30,7 +30,7 @@ function Skills() {
                 <div className="ui-labels">CSS</div>
               </div>
             </div>
-            <div className="col-lg-3 col-sm-6 text-center">
+            <div className="col-lg-3 col-sm-6 text-center" data-aos="zoom-in" data-aos-duration="3000">
               <div className="ui-widgets ui-widgetsjs">
                 <div className="ui-values">
                   <img src={require("../../assets/js.png")} alt="" />
@@ -38,7 +38,7 @@ function Skills() {
                 <div className="ui-labels">Javascript</div>
               </div>
             </div>
-            <div className="col-lg-3 col-sm-6 text-center">
+            <div className="col-lg-3 col-sm-6 text-center" data-aos="zoom-in" data-aos-duration="3000">
               <div className="ui-widgets ui-widgetsreact">
                 <div className="ui-values">
                   <img src={require("../../assets/react.png")} alt="" />

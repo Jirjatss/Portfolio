@@ -159,15 +159,15 @@ i {
   font-weight: bolder;
   background-color: transparent;
   margin-top: 1rem;
-  border: 2px solid red;
+  border: 2px solid blue;
   padding: 0.5rem;
   padding-left: 2rem !important;
   padding-right: 2rem !important;
   font-size: 1rem;
 }
 .project:hover {
-  color: whitesmoke;
-  background-color: red;
+  color: black;
+  background-color: aliceblue;
   margin-top: 1rem;
   border: 2px solid red;
   padding: 0.5rem;

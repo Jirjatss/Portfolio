@@ -1,4 +1,3 @@
-import Aos from "aos";
 import React from "react";
 import About from "../../components/About/About";
 import Contact from "../../components/Contact/Contact";
@@ -15,9 +14,7 @@ const Home = () => {
       <Navbars />
       <Masthead />
       <About />
-      <div data-aos="fade-down">
-        <Education />
-      </div>
+      <Education />
       <Skills />
       <Projects />
       <Contact />

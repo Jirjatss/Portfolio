@@ -16,7 +16,7 @@ function Contact() {
           <div className="container-fluid contacts">
             <div className="contact-items">
               <div className="row d-flex justify-content-center">
-                <div className="col-lg-4">
+                <div className="col-lg-4" data-aos="flip-up" data-aos-duration="3000">
                   <div className="contact-item">
                     <div className="icon">
                       <img src="https://img.icons8.com/bubbles/100/000000/phone.png" alt="" />
@@ -27,7 +27,7 @@ function Contact() {
                     </div>
                   </div>
                 </div>
-                <div className="col-lg-4">
+                <div className="col-lg-4" data-aos="flip-down" data-aos-duration="3000">
                   <div className="contact-item">
                     <div className="icon">
                       <img src="https://img.icons8.com/bubbles/100/000000/new-post.png" alt="" />
@@ -38,7 +38,7 @@ function Contact() {
                     </div>
                   </div>
                 </div>
-                <div className="col-lg-4">
+                <div className="col-lg-4" data-aos="flip-up" data-aos-duration="3000">
                   <div className="contact-item">
                     <div className="icon">
                       <img src="https://img.icons8.com/bubbles/100/000000/map-marker.png" alt="" />

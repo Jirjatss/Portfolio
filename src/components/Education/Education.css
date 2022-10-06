@@ -10,7 +10,7 @@
   border: 2px solid blue;
 }
 .text-black-700:hover {
-  border: 2px solid blue;
-  background-color: blue;
-  color: whitesmoke;
+  border: 2px solid red;
+  background-color: aliceblue;
+  color: black;
 }

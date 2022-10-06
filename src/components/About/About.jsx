@@ -39,16 +39,18 @@ function About() {
             ABO<span style={{ color: "blue" }}>UT</span>
           </h1>
         </div>
-        <div className="row aos-init" data-aos="fade-up">
+        <div className="row">
           <div className="container sub">
             <div className="row d-flex justify-content-center">
-              <div className="col-lg-6 col-sm-12 text-center saik">
+              <div className="col-lg-6 col-sm-12 text-center saik" data-aos="fade-up" data-aos-duration="3000">
                 <img className="imgabout" src={require("../../assets/fotoabout.png")} style={{ width: "40%" }} alt="" />
               </div>
-              <div className="col-lg-6 col-sm-12 text-justify textabout">
+              <div className="col-lg-6 col-sm-12 text-justify textabout" data-aos="fade-down" data-aos-duration="3000">
                 <p>
-                  I prioritized the tech part, created applications and websites. Certainly with mastery of HTML, CSS, javascript, navigational js is my superior. I'm a quick member of the team to learn and apply new technologies to the
-                  age. I'm also a ticktock content, containing game content topics
+                  <b>
+                    I prioritized the tech part, created applications and websites. Certainly with mastery of HTML, CSS, javascript, navigational js is my superior. I'm a quick member of the team to learn and apply new technologies to the
+                    age. I'm also a ticktock content, containing game content topics
+                  </b>
                 </p>
                 <button className="btn-about me-2" onClick={cv}>
                   Download CV

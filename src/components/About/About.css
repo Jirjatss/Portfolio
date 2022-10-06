@@ -4,7 +4,7 @@
   margin: 0 auto;
   font-weight: bolder;
   font-family: "Red Hat Display", sans-serif !important;
-  margin-bottom: 6rem;
+  margin-bottom: 2rem;
   transform: skew(-12deg);
   z-index: -1;
   border-bottom: 2px solid black;
@@ -49,6 +49,5 @@
   padding: 0.5rem;
 }
 .sub {
-  margin-bottom: 6rem !important;
   padding-top: 4rem;
 }

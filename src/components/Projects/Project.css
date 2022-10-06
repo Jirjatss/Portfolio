@@ -1,0 +1,151 @@
+.containerprojects {
+  position: relative;
+  justify-content: space-between;
+  font-family: "Sarabun", sans-serif;
+}
+
+.container .card {
+  margin-top: 1rem !important;
+  position: relative;
+  text-align: center !important;
+  border: none;
+}
+
+i {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 80px;
+  transition: 0.7s;
+  color: #fff;
+}
+
+.container .card .face {
+  width: 100%;
+  height: 200px;
+  transition: 0.5s;
+}
+
+.babycare {
+  position: relative;
+  background-image: url("../../assets/babycare.PNG") !important;
+  background-size: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 1;
+  transform: translateY(100px);
+}
+
+.container .card:hover .babycare {
+  background-image: url("../../assets/babycare.PNG") !important;
+  transform: translateY(0px);
+}
+.greenstore {
+  position: relative;
+  background-image: url("../../assets/greenstore.PNG") !important;
+  background-size: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 1;
+  transform: translateY(100px);
+}
+
+.container .card:hover .greenstore {
+  background-image: url("../../assets/greenstore.PNG") !important;
+  transform: translateY(0px);
+}
+.movie {
+  position: relative;
+  background-image: url("../../assets/movie.PNG") !important;
+  background-size: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 1;
+  transform: translateY(100px);
+}
+
+.container .card:hover .movie {
+  background-image: url("../../assets/movie.PNG") !important;
+  transform: translateY(0px);
+}
+.BMI {
+  position: relative;
+  background-image: url("../../assets/BMI.PNG") !important;
+  background-size: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 1;
+  transform: translateY(100px);
+}
+
+.container .card:hover .BMI {
+  background-image: url("../../assets/BMI.PNG") !important;
+  transform: translateY(0px);
+}
+.todo {
+  position: relative;
+  background-image: url("../../assets/todo.PNG") !important;
+  background-size: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 1;
+  transform: translateY(100px);
+}
+
+.container .card:hover .todo {
+  background-image: url("../../assets/todo.PNG") !important;
+  transform: translateY(0px);
+}
+
+.container .card .face.face2 {
+  position: relative;
+  background: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+  box-sizing: border-box;
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.8);
+  transform: translateY(-100px);
+}
+
+.container .card:hover .face.face2 {
+  transform: translateY(0);
+}
+
+.container .card .face.face2 .content p {
+  margin: 0;
+  padding: 0;
+  text-align: center;
+  color: #414141;
+}
+
+.container .card .face.face2 .content h3 {
+  margin: 0 0 10px 0;
+  padding: 0;
+  color: #fff;
+  font-size: 24px;
+  text-align: center;
+  color: #414141;
+}
+
+.container a {
+  text-decoration: none;
+  color: #414141;
+}
+.project {
+  color: black;
+  background-color: transparent;
+  margin-top: 1rem;
+  border: 2px solid red;
+  padding: 0.5rem;
+  padding-left: 2rem !important;
+  padding-right: 2rem !important;
+  font-size: 1rem;
+}

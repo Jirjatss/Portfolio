@@ -1,0 +1,54 @@
+.subheading h1 {
+  margin-top: 4.5rem !important;
+  width: 50%;
+  margin: 0 auto;
+  font-weight: bolder;
+  font-family: "Red Hat Display", sans-serif !important;
+  margin-bottom: 6rem;
+  transform: skew(-12deg);
+  background: red;
+  z-index: -1;
+}
+.subheading1 h1 {
+  margin-top: 4.5rem !important;
+  width: 50%;
+  margin: 0 auto;
+  font-weight: bolder;
+  font-family: "Red Hat Display", sans-serif !important;
+  margin-bottom: 6rem;
+  transform: skew(-12deg);
+  background: blue;
+  z-index: -1;
+}
+.textabout {
+  text-align: justify;
+  margin-top: 2rem !important;
+  font-family: "Sarabun", sans-serif;
+}
+#about {
+  padding: 0% 5% 0% 5%;
+  margin-top: 1rem !important;
+}
+.imgabout {
+  margin-left: 10rem;
+  border-radius: 50%;
+  border: 2px solid rgba(41, 50, 60, 0.5);
+  text-align: center !important;
+}
+@media screen and (max-width: 600px) {
+  .imgabout {
+    margin-left: 8rem;
+    border-radius: 50%;
+    border: 2px solid rgba(41, 50, 60, 0.5);
+    text-align: center !important;
+  }
+}
+.btn-about {
+  background-color: transparent;
+  border: 2px solid red;
+  padding: 0.5rem;
+}
+.sub {
+  margin-bottom: 6rem !important;
+  padding-top: 4rem;
+}

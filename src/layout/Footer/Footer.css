@@ -1,0 +1,25 @@
+/* #footer {
+  background-color: rgb(41, 50, 60) !important;
+  box-shadow: 0px 0px 0px rgb(0 0 0 / 40%);
+  transition: 500ms;
+
+  padding-bottom: 1rem;
+  font-family: "Sarabun", sans-serif;
+} */
+.footer {
+  background-color: var(--second-color);
+  background-color: rgb(41, 50, 60) !important;
+  text-align: center;
+  font-weight: var(--font-semi);
+  padding: 1rem;
+  color: whitesmoke;
+}
+
+.footer__title {
+  font-size: 2rem;
+  margin-bottom: var(--mb-4);
+}
+
+.footer__copy {
+  font-size: var(--smaller-font-size);
+}

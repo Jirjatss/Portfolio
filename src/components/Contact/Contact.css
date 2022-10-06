@@ -1,0 +1,37 @@
+#contact .contact {
+  font-family: "Sarabun", sans-serif;
+  flex-direction: column;
+  margin: 0 auto;
+  width: 100%;
+  margin-bottom: 12rem;
+}
+.contacts {
+  margin-top: 4rem;
+}
+#contact .contact-items {
+  /* max-width: 400px; */
+  width: 100%;
+}
+#contact .contact-item {
+  width: 100%;
+  text-align: center;
+  border-radius: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  box-shadow: 0px 0px 18px 0 #0000002c;
+  transition: 0.3s ease box-shadow;
+}
+#contact .contact-item:hover {
+  box-shadow: 0px 0px 5px 0 #0000002c;
+}
+#contact .icon img {
+  width: 100%;
+  margin: 0 auto !important;
+}
+#contact .contact-info h1 {
+  font-size: 2.5rem;
+  font-weight: 500;
+  margin-bottom: 5px;
+}

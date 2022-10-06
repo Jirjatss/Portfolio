@@ -1,0 +1,113 @@
+.ui-widgets {
+  position: relative;
+  display: inline-block;
+  width: 10rem;
+  height: 10rem;
+  border-radius: 50%;
+  border: 1.2rem solid blue;
+  box-shadow: inset 0 0 7px grey;
+  border-left-color: blue;
+  border-top-color: blue;
+  border-right-color: blue;
+  border-bottom-color: white;
+  text-align: center;
+  box-sizing: border-box;
+}
+
+.ui-widgetsjs,
+.ui-widgetsreact {
+  border-top-color: blue;
+  border-right-color: white;
+  border-left-color: blue;
+  border-bottom-color: white;
+}
+
+/* Apply css properties to ui-widgets
+   class and ui-values class */
+.ui-widgets .ui-values {
+  position: absolute;
+  width: 100%;
+  left: 0;
+  right: 0;
+  font-weight: 700;
+  font-family: "Sarabun", sans-serif;
+}
+@media screen and (max-width: 981px) {
+  .ui-widgets {
+    position: relative;
+    display: inline-block;
+    width: 10rem;
+    height: 8rem;
+    border-radius: 50%;
+    margin: 1.5rem;
+    border: 1.2rem solid white;
+    box-shadow: inset 0 0 7px white;
+    border-left-color: white;
+    border-top-color: white;
+    border-right-color: white;
+    border-bottom-color: white;
+    text-align: center;
+    box-sizing: border-box;
+  }
+  .ui-widgets .ui-labels {
+    display: none;
+  }
+}
+@media screen and (max-width: 761px) {
+  .ui-widgets {
+    position: relative;
+    display: inline-block;
+    width: 10rem;
+    border-radius: 50%;
+    margin: 1.5rem;
+    border: 1.2rem solid white;
+    box-shadow: inset 0 0 7px white;
+    border-left-color: white;
+    border-top-color: white;
+    border-right-color: white;
+    border-bottom-color: white;
+    text-align: center;
+    box-sizing: border-box;
+  }
+  .ui-widgets:nth-child(2) {
+    border-top-color: white;
+    border-right-color: white;
+    border-left-color: white;
+    border-bottom-color: white;
+  }
+  .ui-widgets:nth-child(3) {
+    border-top-color: white;
+    border-right-color: white;
+    border-left-color: white;
+    border-bottom-color: white;
+  }
+  .ui-widgets:nth-child(4) {
+    border-top-color: white;
+    border-right-color: white;
+    border-left-color: white;
+    border-bottom-color: white;
+  }
+  .ui-widgets .ui-values img {
+    width: 500px !important;
+  }
+  .ui-widgets .ui-labels {
+    display: none;
+  }
+}
+.ui-widgets .ui-labels {
+  left: 0;
+  right: 0;
+  bottom: -19px;
+  text-shadow: 0 0 4px grey;
+  color: black;
+  position: absolute;
+  width: 100%;
+  font-size: 16px;
+}
+#skills {
+  width: 100%;
+  margin-bottom: 6rem !important;
+}
+.skills {
+  margin-top: 1rem;
+}

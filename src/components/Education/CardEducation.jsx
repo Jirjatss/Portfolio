@@ -14,7 +14,7 @@ function CardEducation(props) {
             <p className="text-gray-700 text-base">{props.address}</p>
           </div>
           <div className="px-6 py-4">
-            <button className="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-blue-700 mr-2" onClick={() => openInNewTab(props.url)}>
+            <button className="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-black-700 mr-2" onClick={() => openInNewTab(props.url)}>
               Selengkapnya
             </button>
           </div>

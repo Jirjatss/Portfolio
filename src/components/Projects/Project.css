@@ -98,6 +98,21 @@ i {
   transform: translateY(100px);
 }
 
+.container .card:hover .port {
+  background-image: url("../../assets/port.PNG") !important;
+  transform: translateY(0px);
+}
+.port {
+  position: relative;
+  background-image: url("../../assets/port.PNG") !important;
+  background-size: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 1;
+  transform: translateY(100px);
+}
+
 .container .card:hover .todo {
   background-image: url("../../assets/todo.PNG") !important;
   transform: translateY(0px);
@@ -141,7 +156,18 @@ i {
 }
 .project {
   color: black;
+  font-weight: bolder;
   background-color: transparent;
+  margin-top: 1rem;
+  border: 2px solid red;
+  padding: 0.5rem;
+  padding-left: 2rem !important;
+  padding-right: 2rem !important;
+  font-size: 1rem;
+}
+.project:hover {
+  color: whitesmoke;
+  background-color: red;
   margin-top: 1rem;
   border: 2px solid red;
   padding: 0.5rem;

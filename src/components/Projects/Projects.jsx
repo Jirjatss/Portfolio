@@ -9,7 +9,7 @@ function Projects() {
     <>
       <div class="container containerprojects" id="projects">
         <div className="row">
-          <div className="row subheading1">
+          <div className="row subheading">
             <h1 className="text-center">
               PROJ<span style={{ color: "red" }}>ECTS</span>
             </h1>
@@ -72,8 +72,24 @@ function Projects() {
                   <h3>
                     <b>BMI Calculator</b>
                   </h3>
-                  <p>website to view movie list</p>
+                  <p>Body Mass Index is a simple calculation using a person’s height and weight. </p>
                   <button className="project" onClick={() => openInNewTab("https://clinquant-moxie-74d72e.netlify.app/")}>
+                    Visit
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div className="col-lg-4 col-sm-12">
+            <div class="card">
+              <div class="face face1 port"></div>
+              <div class="face face2">
+                <div class="content">
+                  <h3>
+                    <b>Web Portofolio</b>
+                  </h3>
+                  <p>An online portfolio (may also be called a digital portfolio or e-portfolio)</p>
+                  <button className="project" onClick={() => openInNewTab("https://curious-gumption-283a6d.netlify.app/")}>
                     Visit
                   </button>
                 </div>
@@ -88,7 +104,7 @@ function Projects() {
                   <h3>
                     <b>Add Todo List</b>
                   </h3>
-                  <p>website to view movie list</p>
+                  <p>When your ADHD brain is swirling with deadlines, ideas, and tasks, logging them in a to-do list often feels cathartic</p>
                   <button className="project" onClick={() => openInNewTab("https://reliable-lebkuchen-6853f3.netlify.app/")}>
                     Visit
                   </button>

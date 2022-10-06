@@ -7,7 +7,7 @@ function Education() {
     <>
       <div className="container" id="education">
         <div className="row">
-          <div className="row subheading1">
+          <div className="row subheading">
             <h1 className="text-center">
               EDUC<span style={{ color: "red" }}>ATION</span>
             </h1>

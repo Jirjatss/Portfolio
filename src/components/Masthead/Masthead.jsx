@@ -27,7 +27,7 @@ function Masthead() {
                   </button>
                 </li>
                 <li className="list-inline-item">
-                  <button onClick={() => openInNewTab()} className="social-link">
+                  <button onClick={() => openInNewTab("https://linkedin.com/in/hijirsajad280498")} className="social-link">
                     <Linkedin color="whitesmoke" size={25} />
                   </button>
                 </li>

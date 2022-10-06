@@ -24,7 +24,7 @@ function Navbar() {
         <nav className={navbar ? "navbar active container-fluid navbar-expand-lg fixed-top" : "navbar container-fluid navbar-expand-lg fixed-top"}>
           <div className="container">
             <Link className="navbar-brand" to="/">
-              <div className="jirjatss mt-2">Jirjatss</div>
+              <img src={require("../../assets/Jirjatss.png")} alt="" />
             </Link>
 
             <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">

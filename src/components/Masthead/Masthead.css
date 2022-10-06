@@ -44,3 +44,13 @@
   padding-right: 2rem !important;
   font-size: 1rem;
 }
+.projects:hover {
+  color: black;
+  background-color: whitesmoke;
+  margin-top: 1rem;
+  border: 2px doube whitesmoke;
+  padding: 0.5rem;
+  padding-left: 2rem !important;
+  padding-right: 2rem !important;
+  font-size: 1rem;
+}

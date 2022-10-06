@@ -5,7 +5,7 @@ function Contact() {
   return (
     <>
       <section id="contact">
-        <div class="contact container">
+        <div className="contact container">
           <div className="row">
             <div className="row subheading">
               <h1 className="text-center">
@@ -14,36 +14,36 @@ function Contact() {
             </div>
           </div>
           <div className="container-fluid contacts">
-            <div class="contact-items">
+            <div className="contact-items">
               <div className="row d-flex justify-content-center">
                 <div className="col-lg-4">
-                  <div class="contact-item">
-                    <div class="icon">
-                      <img src="https://img.icons8.com/bubbles/100/000000/phone.png" />
+                  <div className="contact-item">
+                    <div className="icon">
+                      <img src="https://img.icons8.com/bubbles/100/000000/phone.png" alt="" />
                     </div>
-                    <div class="contact-info">
+                    <div className="contact-info">
                       <h1>Phone</h1>
                       <p>+6281233623106</p>
                     </div>
                   </div>
                 </div>
                 <div className="col-lg-4">
-                  <div class="contact-item">
-                    <div class="icon">
-                      <img src="https://img.icons8.com/bubbles/100/000000/new-post.png" />
+                  <div className="contact-item">
+                    <div className="icon">
+                      <img src="https://img.icons8.com/bubbles/100/000000/new-post.png" alt="" />
                     </div>
-                    <div class="contact-info">
+                    <div className="contact-info">
                       <h1>Email</h1>
                       <p>sajadhijir@gmail.com</p>
                     </div>
                   </div>
                 </div>
                 <div className="col-lg-4">
-                  <div class="contact-item">
-                    <div class="icon">
-                      <img src="https://img.icons8.com/bubbles/100/000000/map-marker.png" />
+                  <div className="contact-item">
+                    <div className="icon">
+                      <img src="https://img.icons8.com/bubbles/100/000000/map-marker.png" alt="" />
                     </div>
-                    <div class="contact-info">
+                    <div className="contact-info">
                       <h1>Address</h1>
                       <p>RT 09/RW 03 Dasan Anyar, Jereweh, KSB</p>
                     </div>

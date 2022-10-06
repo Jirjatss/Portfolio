@@ -1,6 +1,6 @@
 import React from "react";
 import "./Footer.css";
-import { Facebook, Instagram, Linkedin, Twitter, Whatsapp } from "react-bootstrap-icons";
+import { Facebook, Instagram, Twitter, Whatsapp } from "react-bootstrap-icons";
 
 function Footer() {
   const openInNewTab = (url) => {
@@ -8,8 +8,8 @@ function Footer() {
   };
   return (
     <>
-      <footer class="footer">
-        <div class="footer__social">
+      <footer className="footer">
+        <div className="footer__social">
           <ul className="social mb-0 list-inline">
             <li className="list-inline-item">
               <button onClick={() => openInNewTab("https://www.instagram.com/Jirjatss/")} className="social-link me-3">
@@ -27,7 +27,7 @@ function Footer() {
             </li>
           </ul>
         </div>
-        <div class="footer__copy">&#169; Coppyright © 2022 - Jirjatss. All Rights Reserved.</div>
+        <div className="footer__copy">&#169; Coppyright © 2022 - Jirjatss. All Rights Reserved.</div>
       </footer>
     </>
   );

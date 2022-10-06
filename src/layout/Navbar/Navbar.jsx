@@ -7,7 +7,6 @@ function Navbar() {
   const [navbar, setNavbar] = useState(false);
 
   const changeBg = () => {
-    console.log(window.scrollY);
     if (window.scrollY >= 80) {
       setNavbar(true);
     } else {

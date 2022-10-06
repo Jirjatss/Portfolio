@@ -30,6 +30,7 @@ function About() {
       });
     });
   };
+
   return (
     <>
       <div className="container" id="about">
@@ -38,7 +39,7 @@ function About() {
             ABO<span style={{ color: "blue" }}>UT</span>
           </h1>
         </div>
-        <div className="row ">
+        <div className="row aos-init" data-aos="fade-up">
           <div className="container sub">
             <div className="row d-flex justify-content-center">
               <div className="col-lg-6 col-sm-12 text-center saik">

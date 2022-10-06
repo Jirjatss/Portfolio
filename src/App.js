@@ -1,6 +1,8 @@
 import { Route, Routes } from "react-router";
 import "./App.css";
 import Home from "./Page/Home/Home";
+import Aos from "aos";
+Aos.init();
 
 function App() {
   return (

@@ -1,3 +1,4 @@
+import Aos from "aos";
 import React from "react";
 import About from "../../components/About/About";
 import Contact from "../../components/Contact/Contact";
@@ -8,19 +9,21 @@ import Skills from "../../components/Skills/Skills";
 import Footer from "../../layout/Footer/Footer";
 import Navbars from "../../layout/Navbar/Navbar";
 
-function Home() {
+const Home = () => {
   return (
     <>
       <Navbars />
       <Masthead />
       <About />
-      <Education />
+      <div data-aos="fade-down">
+        <Education />
+      </div>
       <Skills />
       <Projects />
       <Contact />
       <Footer />
     </>
   );
-}
+};
 
 export default Home;

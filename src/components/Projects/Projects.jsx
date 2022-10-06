@@ -89,7 +89,7 @@ function Projects() {
                     <b>Web Portofolio</b>
                   </h3>
                   <p>An online portfolio (may also be called a digital portfolio or e-portfolio)</p>
-                  <button className="project" onClick={() => openInNewTab("https://curious-gumption-283a6d.netlify.app/")}>
+                  <button className="project" onClick={() => openInNewTab("https://jirjatss.netlify.app/")}>
                     Visit
                   </button>
                 </div>

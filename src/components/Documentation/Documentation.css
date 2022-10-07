@@ -1,0 +1,22 @@
+.video1 {
+  position: relative;
+  width: 100%;
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 1;
+}
+.konten {
+  font-family: "Sarabun", sans-serif;
+  padding: 1%;
+  background-color: white;
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.8);
+}
+.doc {
+  padding: 0% 5% 0% 5%;
+  margin-top: 1rem !important;
+}
+.video {
+  width: 100%;
+}

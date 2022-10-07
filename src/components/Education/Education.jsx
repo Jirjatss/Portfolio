@@ -6,13 +6,12 @@ function Education() {
   return (
     <>
       <div className="container" id="education">
-        <div className="row">
-          <div className="row subheading">
-            <h1 className="text-center">
-              EDUC<span style={{ color: "red" }}>ATION</span>
-            </h1>
-          </div>
+        <div className="row subheading">
+          <h1 className="text-center">
+            EDUC<span style={{ color: "red" }}>ATION</span>
+          </h1>
         </div>
+
         <div className="row cardeducation">
           <div className="col-lg-3 col-sm-6 mt-5" data-aos="zoom-out" data-aos-duration="3000">
             <CardEducation

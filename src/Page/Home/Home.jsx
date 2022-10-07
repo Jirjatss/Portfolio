@@ -1,6 +1,7 @@
 import React from "react";
 import About from "../../components/About/About";
 import Contact from "../../components/Contact/Contact";
+import { Documentation } from "../../components/Documentation/Documentation";
 import Education from "../../components/Education/Education";
 import Masthead from "../../components/Masthead/Masthead";
 import Projects from "../../components/Projects/Projects";
@@ -17,6 +18,7 @@ const Home = () => {
       <Education />
       <Skills />
       <Projects />
+      <Documentation />
       <Contact />
       <Footer />
     </>

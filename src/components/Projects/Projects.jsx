@@ -44,7 +44,7 @@ const Projects = () => {
                     <b>Green Store</b>
                   </h3>
                   <p>website to buy various kinds of fruits and vegetables</p>
-                  <button className="project" onClick={() => openInNewTab("https://scintillating-mermaid-05a0ff.netlify.app/")}>
+                  <button className="project" onClick={() => openInNewTab("https://greenstoreindonesia.netlify.app/")}>
                     Visit
                   </button>
                 </div>

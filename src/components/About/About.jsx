@@ -43,7 +43,7 @@ function About() {
           <div className="container sub">
             <div className="row d-flex justify-content-center">
               <div className="col-lg-6 col-sm-12 text-center saik" data-aos="fade-up" data-aos-duration="3000">
-                <img className="imgabout" src={require("../../assets/fotoabout.png")} style={{ width: "40%" }} alt="" />
+                <img className="imgabout" src={require("../../assets/fotoabout.PNG")} style={{ width: "40%" }} alt="" />
               </div>
               <div className="col-lg-6 col-sm-12 text-justify textabout" data-aos="fade-down" data-aos-duration="3000">
                 <p>

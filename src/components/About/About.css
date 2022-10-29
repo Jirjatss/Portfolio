@@ -21,20 +21,7 @@
   padding: 0% 5% 0% 5%;
   margin-top: 1rem !important;
 }
-.imgabout {
-  margin-left: 10rem;
-  border-radius: 50%;
-  border: 2px solid blue;
-  text-align: center !important;
-}
-@media screen and (max-width: 600px) {
-  .imgabout {
-    margin-left: 8rem;
-    border-radius: 50%;
-    border: 2px solid blue;
-    text-align: center !important;
-  }
-}
+
 .btn-about {
   background-color: transparent;
   border: 2px solid blue;
